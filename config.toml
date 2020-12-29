@@ -1,0 +1,284 @@
+# Page settings
+
+baseURL = "https://saurabhprakash-25.github.io/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+
+
+[params]
+    author = "Saurabh Prakash"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#114c80"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Saurabh Prakash"
+        tagline = "Software Development Engineer - II"
+        avatar = "myavatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Bengaluru, India"
+
+        #[[params.contact.list]]
+        #icon = "fas fa-phone-square"
+        #url = "tel:#"
+        #text = "1234567890"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "saurabhprakash25@outlook.com"
+        #[[params.contact.list]]
+        #icon = "fas fa-globe"
+        #url = "#"
+        #text = "www.yourwebsite.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "C++"
+        [[params.skills.list.items]]
+        details = "Design Thinking"
+        [[params.skills.list.items]]
+        details = "Code Design"
+        [[params.skills.list.items]]
+        details = "Git"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Data Structures & Algorithms"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Unit Testing"
+        [[params.skills.list.items]]
+        details = "Debugging"
+        
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+        [[params.skills.list.items]]
+        details = "Mentorship qualities"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "B.E in Computer Science and Engineering"
+        university = "Sir M. Visvesvaraya Institute of Technology"
+        dates = "2014 - 2018 (Aggr : 78%)"
+        [[params.education.list]]
+        degree = "AISSCE"
+        university = "Bijendra Public School"
+        dates = "2012 - 2014 (Percentage : 89 %)"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Rookie of the Year"
+        body = "Given to the best performer of the year with less than 2 years of experience in the organisation"
+        #date = "2019"
+
+        [[params.awards.list]]
+        name = "Turficate of Appreciation"
+        body = "For showing commitment throughout the year in organising different employee engagement programs"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I'm a self-moivated and highly enthusiastic Software Developer with 2.5 years of experience seeking a responsible career opportunity where I can use my skills to continuously contribute towards achieving the goals of the organization, while at the same time ensuring self-growth and enhancement of my skillset"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Development Engineer - II"
+        dates = "April, 2020 - Present"
+        company = "Tally Solutions Pvt. Ltd."
+        #details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+        details = "Did the system design, code design, implementation and component testing of an entire component based on hub & spoke model used for exchanging data over a distributed lan"
+        [[params.experience.list.items]]
+        details = "Developed a sub-module used by other modules for exchanging 3rd party data with GSTN"
+        [[params.experience.list.items]]
+        details = "Created a diagnostic tool used by the several components in the organisation"
+
+        [[params.experience.list]]
+        title = "Software Development Engineer - I"
+        dates = "July, 2018 - March, 2020"
+        company = "Tally Solutions Pvt. Ltd."
+        [[params.experience.list.items]]
+        details = "Implemented a reading optimisation that substantially reducing the I/O in reading a particular record from the disk"
+        [[params.experience.list.items]]
+        details = "Made the in-house file system (an OODB) the only component in the organisation with 100% unit test coverage"
+        [[params.experience.list.items]]
+        details = "Made the file system concurrent by implementing a Range-Tree based file indexing system"
+        [[params.experience.list.items]]
+        details = "Increased the maintainability, reliability and usability of the file system by reorganising it and removing unwanted dependencies"
+        
+        [[params.experience.list]]
+        title = "Software Engineering Intern"
+        dates = "January, 2018 - March, 2018"
+        company = "Altran Technologies"
+        details = "Being a part of the Global Technical Support team, learnt the architecture and working of IBM's single sign-on desktop application ISAM ESSO."
+
+
+
+    
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Tracker"
+        meta = "Python PyQt, Qt"
+        tagline = "A cross-platform weight management desktop application with it's own database and features like range selection and graph display."
+
+        [[params.projects.list]]
+        title = "Prediction and Analysis of Trends in Cryptocurrency Market"
+        meta = "R, ggplot2, plotly"
+        tagline = "The project applies Exploratory Data Analysis on a set of data of historical prices of different cryptocurrencies."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Extra - Curricular Activities"
+        [[params.information.list.items]]
+        details = " * Gave C++, Data Structures and Algorithms training to the batch of 2020."
+        [[params.information.list.items]]
+        details = "* Mentored a Software Engineering Intern on creating a OODB with proper file indexes in C++"
+        [[params.information.list.items]]
+        details = "* Being a member of the employe-engagement group, organised multiple programs for the organisation including the annual football league."
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Reading, Coding, Travelling, Socializing"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "/https://github.com/saurabhprakash-25"
+        #title = "sarurabhprakash-25"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/saurabhprakash-25/"
+        #title = "saurabhprakash-25"
+
+
+
+
+
+
