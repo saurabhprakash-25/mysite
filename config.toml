@@ -2,13 +2,13 @@
 
 baseURL = "https://saurabhprakash-25.github.io/"
 languageCode = "en"
-title = ""
+title = "Saurabh Prakash"
 theme = "hugo-devresume-theme"
 
 
 [params]
     author = "Saurabh Prakash"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    description = "Saurabh's personal website"
 
 
     primaryColor = "#114c80"
@@ -39,7 +39,7 @@ theme = "hugo-devresume-theme"
         #text = "1234567890"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
+        url = "mailto:saurabhprakash25@outlook.com"
         text = "saurabhprakash25@outlook.com"
         #[[params.contact.list]]
         #icon = "fas fa-globe"
@@ -174,7 +174,7 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "I'm a self-moivated and highly enthusiastic Software Developer with 2.5 years of experience seeking a responsible career opportunity where I can use my skills to continuously contribute towards achieving the goals of the organization, while at the same time ensuring self-growth and enhancement of my skillset"
+        text = "I'm a self-moivated and highly enthusiastic Software Developer with 2.5 years of experience seeking a responsible career opportunity where I can use my skills to continuously contribute towards achieving the goals of the organization, while at the same time ensuring self-growth and enhancement of my skill set"
 
 
 
@@ -192,30 +192,30 @@ theme = "hugo-devresume-theme"
         company = "Tally Solutions Pvt. Ltd."
         #details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
         [[params.experience.list.items]]
-        details = "Did the system design, code design, implementation and component testing of an entire component based on hub & spoke model used for exchanging data over a distributed lan"
+        details = "Did the system design, code design, implementation and component testing of an entire component based on hub & spoke model used for exchanging data over a distributed lan."
         [[params.experience.list.items]]
         details = "Developed a sub-module used by other modules for exchanging 3rd party data with GSTN"
         [[params.experience.list.items]]
-        details = "Created a diagnostic tool used by the several components in the organisation"
+        details = "Created a diagnostic tool used across the organisation"
 
         [[params.experience.list]]
         title = "Software Development Engineer - I"
         dates = "July, 2018 - March, 2020"
         company = "Tally Solutions Pvt. Ltd."
         [[params.experience.list.items]]
-        details = "Implemented a reading optimisation that substantially reducing the I/O in reading a particular record from the disk"
+        details = "Implemented a reading optimization that substantially reduced the I/O in reading a particular record from the disk"
         [[params.experience.list.items]]
-        details = "Made the in-house file system (an OODB) the only component in the organisation with 100% unit test coverage"
+        details = "Made the in-house file system (an OODB) the only component in the organization with 100% unit test coverage"
         [[params.experience.list.items]]
         details = "Made the file system concurrent by implementing a Range-Tree based file indexing system"
         [[params.experience.list.items]]
-        details = "Increased the maintainability, reliability and usability of the file system by reorganising it and removing unwanted dependencies"
+        details = "Increased the maintainability, reliability and usability of the file system by reorganizing it and removing unwanted dependencies"
         
         [[params.experience.list]]
         title = "Software Engineering Intern"
         dates = "January, 2018 - March, 2018"
         company = "Altran Technologies"
-        details = "Being a part of the Global Technical Support team, learnt the architecture and working of IBM's single sign-on desktop application ISAM ESSO."
+        details = "Being a part of the Global Technical Support team, learnt the architecture and working of IBM's single sign-on desktop application called ISAM ESSO."
 
 
 
