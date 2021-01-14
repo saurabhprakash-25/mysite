@@ -174,7 +174,7 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "I'm a self-moivated and highly enthusiastic Software Developer with 2.5 years of experience seeking a responsible career opportunity where I can use my skills to continuously contribute towards achieving the goals of the organization, while at the same time ensuring self-growth and enhancement of my skill set"
+        text = "I'm a self-motivated and highly enthusiastic Software Developer with 2.5 years of experience seeking a responsible career opportunity where I can use my skills to continuously contribute towards achieving the goals of the organization, while at the same time ensuring self-growth and enhancement of my skill set"
 
 
 
